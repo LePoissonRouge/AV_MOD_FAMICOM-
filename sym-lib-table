@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "USB B")(type "Legacy")(uri "${KIPRJMOD}/lib/USBR-B-S-S-O-TH/USBR-B-S-S-O-TH.lib")(options "")(descr ""))
+  (lib (name "USB A")(type "Legacy")(uri "${KIPRJMOD}/lib/USB-A-S-X-X-TH/USB-A-S-X-X-TH.lib")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "USB-A-S-X-X-TH")(type "KiCad")(uri "${KIPRJMOD}/lib/USB-A-S-X-X-TH")(options "")(descr ""))
+  (lib (name "USBR-B-S-S-O-TH")(type "KiCad")(uri "${KIPRJMOD}/lib/USBR-B-S-S-O-TH")(options "")(descr ""))
+)
