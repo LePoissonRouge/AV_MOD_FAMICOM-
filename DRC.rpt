@@ -1,0 +1,38 @@
+** Drc report for /Users/rouge/Documents/GitHub/AV_MOD_FAMICOM-/AV_MOD_FAMICOM.kicad_pcb **
+** Created on 2022-12-02 22:49:10 **
+
+** Found 5 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2500 mm; actual 0.2268 mm)
+    Rule: netclass 'Default'; Severity: error
+    @(194.3100 mm, 45.7200 mm): Through hole pad 1 [GNDREF] of Q1
+    @(195.5800 mm, 44.4500 mm): Through hole pad 2 [VIDEO IN] of Q1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning
+    @(166.3700 mm, 33.0200 mm): Rect on Edge.Cuts
+    @(169.2300 mm, 68.8200 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning
+    @(166.3700 mm, 33.0200 mm): Rect on Edge.Cuts
+    @(183.8300 mm, 60.4300 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning
+    @(166.3700 mm, 33.0200 mm): Rect on Edge.Cuts
+    @(220.3900 mm, 60.4300 mm): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning
+    @(166.3700 mm, 33.0200 mm): Rect on Edge.Cuts
+    @(205.7900 mm, 68.8200 mm): Line on F.Silkscreen
+
+** Found 2 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(206.5200 mm, 58.4200 mm): Through hole pad S1 [Net-(J1-PadS1)] of J1
+    @(219.6600 mm, 58.4200 mm): Through hole pad S2 [Net-(J1-PadS1)] of J1
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(169.9600 mm, 58.4200 mm): Through hole pad S1 [Net-(J2-PadS1)] of J2
+    @(183.1000 mm, 58.4200 mm): Through hole pad S2 [Net-(J2-PadS1)] of J2
+
+** Found 0 Footprint errors **
+
+** End of Report **

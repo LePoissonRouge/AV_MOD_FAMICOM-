@@ -1,11 +1,2 @@
-Plotted to 'C:\Users\Esteban\Documents\Projet KiCad\AV_MOD_FAMICOM\AV_MOD_FAMICOM-F_Cu.gbr'.
-Plotted to 'C:\Users\Esteban\Documents\Projet KiCad\AV_MOD_FAMICOM\AV_MOD_FAMICOM-B_Cu.gbr'.
-Plotted to 'C:\Users\Esteban\Documents\Projet KiCad\AV_MOD_FAMICOM\AV_MOD_FAMICOM-F_Paste.gbr'.
-Plotted to 'C:\Users\Esteban\Documents\Projet KiCad\AV_MOD_FAMICOM\AV_MOD_FAMICOM-B_Paste.gbr'.
-Plotted to 'C:\Users\Esteban\Documents\Projet KiCad\AV_MOD_FAMICOM\AV_MOD_FAMICOM-F_Silkscreen.gbr'.
-Plotted to 'C:\Users\Esteban\Documents\Projet KiCad\AV_MOD_FAMICOM\AV_MOD_FAMICOM-B_Silkscreen.gbr'.
-Plotted to 'C:\Users\Esteban\Documents\Projet KiCad\AV_MOD_FAMICOM\AV_MOD_FAMICOM-F_Mask.gbr'.
-Plotted to 'C:\Users\Esteban\Documents\Projet KiCad\AV_MOD_FAMICOM\AV_MOD_FAMICOM-B_Mask.gbr'.
-Plotted to 'C:\Users\Esteban\Documents\Projet KiCad\AV_MOD_FAMICOM\AV_MOD_FAMICOM-Edge_Cuts.gbr'.
-Création du fichier Gerber "job" 'C:\Users\Esteban\Documents\Projet KiCad\AV_MOD_FAMICOM\AV_MOD_FAMICOM-job.gbrjob'.
-Info: Fini.
+Change J2 footprint assignment from 'SAMTEC_USB-A-S-X-X-TH' to 'USB-A-S-X-X-TH:SAMTEC_USB-A-S-X-X-TH'.
+Change J1 footprint assignment from 'SAMTEC_USB-A-S-X-X-TH' to 'USB-A-S-X-X-TH:SAMTEC_USB-A-S-X-X-TH'.

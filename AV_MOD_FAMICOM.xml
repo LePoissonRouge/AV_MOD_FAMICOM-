@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\Esteban\Documents\Projet KiCad\AV_MOD_FAMICOM\AV_MOD_FAMICOM.kicad_sch</source>
-    <date>10/06/2022 23:44:27</date>
-    <tool>Eeschema (6.0.0)</tool>
+    <source>/Users/rouge/Documents/GitHub/AV_MOD_FAMICOM-/AV_MOD_FAMICOM.kicad_sch</source>
+    <date>2022 October 15, Saturday 22:45:36</date>
+    <tool>Eeschema (6.0.8-1)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -26,160 +26,157 @@
   <components>
     <comp ref="C1">
       <value>220µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
+      <property name="Sheetfile" value="File: AV_MOD_FAMICOM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bc9f4fc7-269c-4929-9e8b-109880e964fe</tstamps>
     </comp>
     <comp ref="C2">
       <value>47µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
+      <property name="Sheetfile" value="File: AV_MOD_FAMICOM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9e8bce03-afb0-4485-ba36-8058b8839173</tstamps>
     </comp>
     <comp ref="D1">
       <value>DIODE</value>
+      <footprint>Diode_THT:D_5W_P12.70mm_Horizontal</footprint>
       <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
+      <property name="Sheetfile" value="File: AV_MOD_FAMICOM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f9be2e45-56e0-4e20-a353-ef4b2b80874c</tstamps>
     </comp>
     <comp ref="J1">
-      <value>Conn_Coaxial</value>
-      <datasheet> ~</datasheet>
-      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <value>USB-A-S-X-X-TH</value>
+      <footprint>SAMTEC_USB-A-S-X-X-TH</footprint>
+      <fields>
+        <field name="MANUFACTURER">Samtec</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.08 mm</field>
+        <field name="PARTREV">R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="USB A" part="USB-A-S-X-X-TH" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7.08 mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="R"/>
+      <property name="MANUFACTURER" value="Samtec"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
+      <property name="Sheetfile" value="File: AV_MOD_FAMICOM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2c8fd281-8926-4cb2-80cd-1daefca3f8e6</tstamps>
+      <tstamps>eadce434-2f9c-40ba-8d24-9c24be0c82ed</tstamps>
     </comp>
     <comp ref="J2">
-      <value>Conn_Coaxial</value>
-      <datasheet> ~</datasheet>
-      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <value>USB-A-S-X-X-TH</value>
+      <footprint>SAMTEC_USB-A-S-X-X-TH</footprint>
+      <fields>
+        <field name="MANUFACTURER">Samtec</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.08 mm</field>
+        <field name="PARTREV">R</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="USB A" part="USB-A-S-X-X-TH" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7.08 mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="R"/>
+      <property name="MANUFACTURER" value="Samtec"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
+      <property name="Sheetfile" value="File: AV_MOD_FAMICOM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>69ebd00a-4c0e-445d-86f9-6e50d88f8462</tstamps>
+      <tstamps>d26c0188-a8c0-40f8-947a-e0efe65dd5bd</tstamps>
     </comp>
     <comp ref="J3">
-      <value>USB_B</value>
-      <datasheet> ~</datasheet>
-      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
+      <property name="Sheetfile" value="File: AV_MOD_FAMICOM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>71cb587c-2b9a-448f-a37c-cf0ed6dc5357</tstamps>
-    </comp>
-    <comp ref="J4">
-      <value>Conn_Coaxial</value>
-      <datasheet> ~</datasheet>
-      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>34d0cae0-308b-45e2-8a7c-1d594965afc3</tstamps>
+      <tstamps>3f2f1aeb-24f2-4597-bbb9-54b12c752d6f</tstamps>
     </comp>
     <comp ref="J5">
       <value>Conn_01x07</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
+      <property name="Sheetfile" value="File: AV_MOD_FAMICOM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>42ad14a7-9025-4df7-8122-1178f2977a3b</tstamps>
     </comp>
     <comp ref="Q1">
       <value>Q_PNP_CBE</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
       <libsource lib="Device" part="Q_PNP_CBE" description="PNP transistor, collector/base/emitter"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
+      <property name="Sheetfile" value="File: AV_MOD_FAMICOM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e612abea-0302-47ba-8c00-239d06607345</tstamps>
     </comp>
     <comp ref="Q2">
       <value>Q_NPN_CBE</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
       <libsource lib="Device" part="Q_NPN_CBE" description="NPN transistor, collector/base/emitter"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
+      <property name="Sheetfile" value="File: AV_MOD_FAMICOM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>42c0957c-390c-40db-ab1a-d1f6c8a093c1</tstamps>
     </comp>
     <comp ref="R1">
       <value>2200</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
+      <property name="Sheetfile" value="File: AV_MOD_FAMICOM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5e906fab-cbda-4297-8a09-9e12dae7620b</tstamps>
     </comp>
     <comp ref="R2">
       <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
+      <property name="Sheetfile" value="File: AV_MOD_FAMICOM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6bcae9cc-bd52-4f97-82ef-304a9a747f94</tstamps>
     </comp>
     <comp ref="R3">
       <value>68</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
+      <property name="Sheetfile" value="File: AV_MOD_FAMICOM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d0bca7c3-16fb-43b6-91c1-9db8fac52cb2</tstamps>
     </comp>
     <comp ref="R4">
       <value>82?</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="AV_MOD_FAMICOM.kicad_sch"/>
+      <property name="Sheetfile" value="File: AV_MOD_FAMICOM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f8ae011a-48ba-46df-a69d-fb189c06c99d</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="Conn_Coaxial">
-      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
-      <docs> ~</docs>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
       <footprints>
-        <fp>*BNC*</fp>
-        <fp>*SMA*</fp>
-        <fp>*SMB*</fp>
-        <fp>*SMC*</fp>
-        <fp>*Cinch*</fp>
-        <fp>*LEMO*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_Coaxial</field>
-        <field name="Datasheet"> ~</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="In" type="passive"/>
-        <pin num="2" name="Ext" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="USB_B">
-      <description>USB Type B connector</description>
-      <docs> ~</docs>
-      <footprints>
-        <fp>USB*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">USB_B</field>
-        <field name="Datasheet"> ~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VBUS" type="power_out"/>
-        <pin num="2" name="D-" type="bidirectional"/>
-        <pin num="3" name="D+" type="bidirectional"/>
-        <pin num="4" name="GND" type="power_out"/>
-        <pin num="5" name="Shield" type="passive"/>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x07">
@@ -263,6 +260,25 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="USB A" part="USB-A-S-X-X-TH">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB-A-S-X-X-TH</field>
+        <field name="Footprint">SAMTEC_USB-A-S-X-X-TH</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.08 mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">R</field>
+        <field name="MANUFACTURER">Samtec</field>
+      </fields>
+      <pins>
+        <pin num="01" name="VCC" type="power_in"/>
+        <pin num="02" name="D-" type="bidirectional"/>
+        <pin num="03" name="D+" type="bidirectional"/>
+        <pin num="04" name="GND" type="power_in"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="pspice" part="DIODE">
       <description>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</description>
       <docs>~</docs>
@@ -279,80 +295,88 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="USB A">
+      <uri>/Users/rouge/Documents/GitHub/AV_MOD_FAMICOM-/lib/USB-A-S-X-X-TH/USB-A-S-X-X-TH.lib</uri>
     </library>
     <library logical="pspice">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/pspice.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//pspice.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+5V">
-      <node ref="J3" pin="1" pinfunction="VBUS" pintype="power_out"/>
-      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="01" pinfunction="VCC" pintype="power_in"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Q2" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="2" name="/PPU 21 PIN">
-      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
-    </net>
-    <net code="3" name="AUDIO">
+    <net code="2" name="AUDIO">
+      <node ref="C2" pin="1" pintype="passive"/>
       <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
-    <net code="4" name="Cartrige connector PIN46">
-      <node ref="C2" pin="1" pintype="passive"/>
+    <net code="3" name="AUDIO L">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="01" pinfunction="VCC" pintype="power_in"/>
+      <node ref="J1" pin="02" pinfunction="D-" pintype="bidirectional"/>
     </net>
-    <net code="5" name="GNDREF">
-      <node ref="J1" pin="2" pinfunction="Ext" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="Ext" pintype="passive"/>
-      <node ref="J3" pin="2" pinfunction="D-" pintype="bidirectional"/>
-      <node ref="J3" pin="3" pinfunction="D+" pintype="bidirectional"/>
-      <node ref="J3" pin="4" pinfunction="GND" pintype="power_out"/>
-      <node ref="J3" pin="5" pinfunction="Shield" pintype="passive"/>
-      <node ref="J4" pin="2" pinfunction="Ext" pintype="passive"/>
+    <net code="4" name="GNDREF">
+      <node ref="J1" pin="04" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="02" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J2" pin="03" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J2" pin="04" pinfunction="GND" pintype="power_in"/>
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(C1-Pad1)">
+    <net code="5" name="Net-(C1-Pad1)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="input"/>
       <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(C1-Pad2)">
+    <net code="6" name="Net-(C1-Pad2)">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(C2-Pad2)">
-      <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="In" pintype="passive"/>
-      <node ref="J4" pin="1" pinfunction="In" pintype="passive"/>
-    </net>
-    <net code="9" name="Net-(D1-Pad2)">
+    <net code="7" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="A" pintype="input"/>
       <node ref="Q2" pin="2" pinfunction="B" pintype="input"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(J1-Pad1)">
-      <node ref="J1" pin="1" pinfunction="In" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
+    <net code="8" name="Net-(J1-PadS1)">
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J2-PadS1)">
+      <node ref="J2" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J2" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
     <net code="11" name="Net-(Q1-Pad3)">
       <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="12" name="VIDEO">
+    <net code="12" name="VIDEO IN">
       <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="13" name="VIDEO OUT">
+      <node ref="J1" pin="03" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R4" pin="2" pintype="passive"/>
     </net>
   </nets>
 </export>
